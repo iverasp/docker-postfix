@@ -1,0 +1,16 @@
+# You probably want to edit /etc/postfix/global_alias instead,
+# that file is used for e-mail coming externally.
+
+mailer-daemon: postmaster
+postmaster: root
+nobody: root
+hostmaster: root
+usenet: root
+news: root
+webmaster: root
+www: webmaster
+ftp: root
+abuse: root
+noc: root
+security: root
+postfix: root
